@@ -18,13 +18,9 @@ forbidden</i></p>
     <p><b>There are currently no notifications</b></p>
   </div>
   <script type="text/javascript">
-    if ( navigator.userAgent.indexOf("MSIE")>0 )
-  {
-   alert("This website is not optimised for internet explorer; please use chrome, firefox or edge"); 
-  }
     if ( navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1 )
   {
-   alert("This website is not optimised for safari - please use chrome, firefox or edge"); 
+   window.location.href = "mobile"; 
   }
   </script>
 </body>
