@@ -8,4 +8,33 @@ html {}
     right: -2px;
     border: 2px solid grey;
     background: black;
+    color: white;
+}
+
+.mainbar
+{
+    position: fixed;
+    top: 202px;
+    left: 0;
+    right: 500px;
+    bottom: 0;
+    border: 2px solid black;
+    background: black;
+    color: white;
+}
+
+.textarea
+{
+    top: 202px;
+    left: 500px;
+    right: 0;
+    bottom: 0;
+    border: 2px solid white;
+    background: white;
+    color: black;
+}
+
+.redtext
+{
+    color: red;
 }
