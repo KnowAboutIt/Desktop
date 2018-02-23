@@ -27,14 +27,13 @@ padding: 10px;
 box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 }
 
-.squashedwhitebox
+.squashedblackbox
 {
-border: 1px solid white;
-background: white;
-color: black;
+border: 1px solid black;
+background: black;
+color: white;
 padding-left: 10px;
 padding-right: 10px;
-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 display: inline-block;
 }
 
