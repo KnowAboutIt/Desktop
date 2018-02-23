@@ -19,6 +19,7 @@ font-size: 35px;
 
 .whitebox
 {
+top: 140px;
 border: 1px solid white;
 background: white;
 color: black;
