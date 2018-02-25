@@ -41,3 +41,16 @@ header
 {
     color: red;
 }
+
+.button
+{
+    border: 2px solid black;
+    background: black;
+    width: 40px;
+}
+
+.button:hover
+{
+    border: 2px solid #292929;
+    background: #292929;
+}
