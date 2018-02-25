@@ -47,6 +47,7 @@ header
     border: 2px solid black;
     background: black;
     width: 40px;
+    padding: 5px;
 }
 
 .button:hover
