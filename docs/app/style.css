@@ -1,6 +1,19 @@
 html {}
 
-.fixedheader
+.textarea
+{
+    padding: 10px;
+    position: absolute;
+    top: 56px;
+    left: 366px;
+    right: 0;
+    bottom: 0;
+    border: 2px solid white;
+    background: white;
+    color: black;
+}
+
+header
 {
     position: fixed;
     top: -2px;
@@ -22,19 +35,6 @@ html {}
     border: 2px solid black;
     background: black;
     color: white;
-}
-
-.textarea
-{
-    padding: 10px;
-    position: absolute;
-    top: 56px;
-    left: 366px;
-    right: 0;
-    bottom: 0;
-    border: 2px solid white;
-    background: white;
-    color: black;
 }
 
 .redtext
