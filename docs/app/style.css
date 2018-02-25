@@ -4,7 +4,7 @@ html {}
 {
     padding: 10px;
     position: absolute;
-    top: 56px;
+    top: 60px;
     left: 366px;
     right: 0;
     bottom: 0;
@@ -19,7 +19,7 @@ header
     top: -2px;
     left: -2px;
     right: -2px;
-    border: 2px solid grey;
+    border: 2px solid black;
     background: black;
     color: white;
 }
@@ -30,7 +30,7 @@ header
     position: fixed;
     top: 56px;
     left: 0;
-    right: 500px;
+    right: 1000px;
     bottom: 0;
     border: 2px solid black;
     background: black;
