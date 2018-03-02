@@ -60,6 +60,9 @@ padding-left: 10px;
 padding-right: 10px;
 }
 
-.bordershadow:hover {
-box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+.button:hover {
+box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+border: 1px solid black;
+background: white;
+color: black;
 }
