@@ -1,68 +1,68 @@
-html, body {font-family: Arial, Helvetica, sans-serif;}
+html {font-family: Arial, Helvetica, sans-serif;}
 
-.fixedblackbox
-{
-right: 0;
-left: 0;
-top: 0;
-position: fixed;
-width: 100%;
-border: 1px solid black;
-background: black;
-color: white;
-padding-left: 10px;
-padding-top: 10px;
-padding-right: 10px;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, .5);
-font-size: 35px;
+.fixedblackbox {
+  right: 0;
+  left: 0;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  border: 1px solid black;
+  background: black;
+  color: white;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, .5);
+  font-size: 35px;
 }
 
-.indentwhitebox
-{
-margin-top: 140px;
-border: 1px solid white;
-background: white;
-color: black;
-padding: 10px;
-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+.indentwhitebox {
+  margin-top: 140px;
+  border: 1px solid white;
+  background: white;
+  color: black;
+  padding: 10px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 }
 
-.squashedblackbox
-{
-border: 1px solid black;
-background: black;
-color: white;
-padding-left: 10px;
-padding-right: 10px;
-display: inline-block;
+.squashedblackbox {
+  border: 1px solid black;
+  background: black;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
 }
 
-.dottedredbox
-{
-margin-top: 140px;
-margin-bottom: 10px;
-border: 2px dotted red;
-background: white;
-color: red;
-padding-left: 10px;
+.dottedredbox {
+  margin-top: 140px;
+  margin-bottom: 10px;
+  border: 2px dotted red;
+  background: white;
+  color: red;
+  padding-left: 10px;
 }
 
-.fixedredbox
-{
-bottom: 10px;
-left: 8px;
-right: 8px;
-position: fixed;
-border: 2px solid red;
-background: white;
-color: red;
-padding-left: 10px;
-padding-right: 10px;
+.fixedredbox {
+  bottom: 10px;
+  left: 8px;
+  right: 8px;
+  position: fixed;
+  border: 2px solid red;
+  background: white;
+  color: red;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .button:hover {
-box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
-border: 1px solid black;
-background: white;
-color: black;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, .5);
+  width: 110px;
+}
+
+.left {
+  border-radius: 0px 25px 25px 0px;
+  margin-left: -11px;
+  width: 100px;
+  text-align: center;
 }
