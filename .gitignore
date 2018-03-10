@@ -1,0 +1,2 @@
+git add desktop && git commit -m "Initial desktop subtree commit"
+git subtree push --prefix desktop origin gh-pages
